@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(236, 232, 239); 
+    margin:0px;
+    color:black;
+}
+/* je suis un commentaire*/
+p ,h1 {
+    color:rgb(90, 235, 231);
+}
+h1{
+    font: size 40px;
+    font-style:oblique;
+    font-weight:bold;
+}
+#p1{
+    color:rgb(255, 68, 0);
+    font-size:80px;
+
+}
+.p1{
+    color:chartreuse;
+    font-size:50px;
+}
+strong{
+    border:1px solid black;
+
+}
+.p3{
+    background-color:rgb(255, 68, 0);
+    font-weight:10px ;
+    font-style:italic;
+}
+.p4{
+    color:red;
+}

@@ -1,0 +1,83 @@
+
+body{
+    margin:0px;
+    padding:0px;
+}
+.partie1{
+   background-color:rgb(60, 57, 57);
+   height:90%;
+   width:100%;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+   
+}
+span{
+ 
+    font-weight:900;
+    font-size:larger;
+}
+#lien{
+    color:white;
+    background-color:rgb(97, 149, 45);
+    padding:2px;
+}
+.lien1{
+    display: flex;
+    justify-content:center;  
+}
+/* silde de la video et de l'image*/
+.deo video{
+    width: 100%;
+}
+/* stylisations de welcome et luxury*/
+
+
+/* stylisations des images en dessous de la vidés*/
+.wel{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.tabl{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+img{
+     width: 400px;
+     height:300px;
+     align-items: center;
+     margin-inline: 20px;
+     
+}
+#food{
+    width:100%;
+    margin:0px;
+    height:90%;
+    position: relative;
+    z-index: 10;
+}   
+#food1{
+    position: absolute;
+    z-index: 10;
+    left: -1%;
+    width: 30%;
+   
+}
+#food2{
+    position: absolute;
+    z-index: 10;
+    right:-1%;
+    margin-top: 34.5%;
+   
+
+}
