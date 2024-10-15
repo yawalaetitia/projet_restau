@@ -26,14 +26,73 @@ span{
     background-color:rgb(97, 149, 45);
     padding:2px;
 }
-.lien1{
+/*.lien1{
     display: flex;
-    justify-content:center;  
+    justify-content:center; 
 }
-/* silde de la video et de l'image*/
+
+/* silde de la video et de l'image
 .deo video{
     width: 100%;
 }
+*/
+nav{
+    display: flex;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background:black;
+     
+}
+nav img{
+      height: 70px;
+      width:70px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+   justify-content: center;
+    display:flex;
+    flex-grow: 1;
+}
+nav ul li a{
+    line-height: 80px;
+    color:white;
+    padding:12px 30px;
+    text-decoration:none;
+    font-size: 16px; 
+    font-weight: bold;
+    font-family: r;
+}
+.silde{
+    position: relative;
+   
+}
+video{
+
+    width:100%;
+}
+.paragraphe{
+    position: absolute;
+
+    
+    
+}
+h1{
+    color: #CDAA7C ;
+}
+#p1{
+    color:white;
+}
+#p2{
+
+}
+ 
 /* stylisations de welcome et luxury*/
 
 
@@ -44,6 +103,17 @@ span{
     /* align-content: center; */
     /* justify-content: center; */
     align-items: center;
+    margin-top: 6%;
+    
+}
+#p3{
+    font-size: 40px;
+    font-weight:bold;
+    color:#333333;
+}
+#p4{
+    color: #CDAA7C;
+    
 }
 
 .tabl{
@@ -59,25 +129,29 @@ img{
      margin-inline: 20px;
      
 }
+#p5{
+   left: 50%;
+}
 #food{
     width:100%;
     margin:0px;
     height:90%;
     position: relative;
     z-index: 10;
+    margin-top: 5%;
 }   
 #food1{
     position: absolute;
     z-index: 10;
     left: -1%;
     width: 30%;
+    margin-top: 5%;
    
 }
 #food2{
     position: absolute;
     z-index: 10;
     right:-1%;
-    margin-top: 34.5%;
-   
-
+    margin-top: 39.5%;
 }
+
